@@ -40,12 +40,6 @@ module.exports = {
 					caption: await rzky.tools.parseResult(yt[0] || yt, { title: "Youtube", delete: ["mp4", "mp3"] }),
 					templateButtons: [
 						{ urlButton: { displayText: "Source", url: teks } },
-						{
-							urlButton: {
-								displayText: "Short Link",
-								url: "https://sl.rzkyfdlh.tech",
-							},
-						},
 						{ quickReplyButton: { displayText: "Audio 🎶", id: "#ytmp3 " + teks } },
 						{ quickReplyButton: { displayText: "Video 🎥", id: "#ytmp4 " + teks } },
 						{ quickReplyButton: { displayText: "Document Audio 📄", id: "#ytmp3 " + teks + " --doc" } },
