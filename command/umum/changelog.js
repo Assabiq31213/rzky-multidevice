@@ -69,12 +69,12 @@ module.exports = {
 					caption: str,
 					footer: config.namebot + " • " + config.ownername,
 					templateButtons: [
-						{ urlButton: { displayText: "Shortlink", url: "https://sl.rzkyfdlh.tech" } },
-						{ urlButton: { displayText: "Downloader", url: "https://downloader.rzkyfdlh.tech" } },
-						{ quickReplyButton: { displayText: "Script Bot📑", id: "#script" } },
-						{ quickReplyButton: { displayText: "Owner👥", id: "#owner" } },
-						{ quickReplyButton: { displayText: "Dashboard📊", id: "#db" } },
-					],
+						{ urlButton: { displayText: "Website", url: "https://sabiq-web.ml" } },
+						{ urlButton: { displayText: "Instagram", url: "https://Instagram.com/sabiq.xyz" } },
+						{ quickReplyButton: { displayText: "Script Bot", id: "#script" } },
+						{ quickReplyButton: { displayText: "Owner", id: "#owner" } },
+						{ quickReplyButton: { displayText: "Dashboard", id: "#db" } },
+					]
 				},
 				{ quoted: msg }
 			);
