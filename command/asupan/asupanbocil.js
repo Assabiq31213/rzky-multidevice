@@ -6,8 +6,8 @@ module.exports = {
 	category: "asupan",
 	isSpam: true,
 	async run({ msg, conn }) {
-	    var ini = await fetchJson(`https://ziy.herokuapp.com/api/asupan/bocil?apikey=xZiyy`)
-	    buff = ini.result.url
+	    const ini = await fetchJson(`https://ziy.herokuapp.com/api/asupan/bocil?apikey=xZiyy`)
+	    const buff = ini.result.url
 		await msg.reply(response.wait);
 		const buttons = [{ buttonId: "#asupanbocil", buttonText: { displayText: "Get Again" }, type: 1 }];
 		const buttonMessage = {
