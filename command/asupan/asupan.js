@@ -5,7 +5,7 @@ module.exports = {
 	category: "asupan",
 	isSpam: true,
 	async run({ msg, conn }) {
-	    const asupan = JSON.parse(fs.readFileSync("../../lib/asupan.json"));
+	    const asupan = JSON.parse(fs.readFileSync("../lib/asupan.json"));
 		await msg.reply(response.wait);
 		const buttons = [{ buttonId: "#asupan", buttonText: { displayText: "Get Again" }, type: 1 }];
 		const buttonMessage = {
