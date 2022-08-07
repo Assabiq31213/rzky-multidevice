@@ -7,7 +7,7 @@ module.exports = {
 		await msg.reply(response.wait);
 		const buttons = [{ buttonId: "#asupanhijab", buttonText: { displayText: "Get Again" }, type: 1 }];
 		const buttonMessage = {
-			video: { url: 'https://api.zacros.my.id/asupan/hijaber' },
+			image: { url: 'https://api.zacros.my.id/asupan/hijaber' },
 			caption: "Nih kak",
 			footer: "Sakura-Botz - By BiqqTzy",
 			buttons: buttons,
