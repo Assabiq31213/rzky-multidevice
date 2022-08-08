@@ -1,15 +1,13 @@
-let { fetchJson } = require("../../lib/index");
-
 module.exports = {
-	name: "asupanindo",
-	alias: ["asupanindo"],
+	name: "asupanmalay",
+	alias: ["asupanmalay","malay"],
 	category: "asupan",
 	isSpam: true,
 	async run({ msg, conn }) {
 		await msg.reply(response.wait);
-		const buttons = [{ buttonId: "#asupanindo", buttonText: { displayText: "Get Again" }, type: 1 }];
+		const buttons = [{ buttonId: "#asupanmalay", buttonText: { displayText: "Get Again" }, type: 1 }];
 		const buttonMessage = {
-			image: { url: 'https://api.zacros.my.id/asupan/indonesia' },
+			image: { url: 'https://api.zacros.my.id/asupan/malaysia' },
 			caption: "Nih kak",
 			footer: "Sakura-Botz - By BiqqTzy",
 			buttons: buttons,
