@@ -322,7 +322,6 @@ module.exports = handler = async (m, conn, map) => {
 							caption: await rzky.tools.parseResult(rz, { title: "Auto Download" }),
 							templateButtons: [
 								{ urlButton: { displayText: "Source", url: link } },
-								{ urlButton: { displayText: "Downloader", url: "https://down.rzkyfdlh.tech" } },
 								{ quickReplyButton: { displayText: "Audio🎶", id: "#tiktokaudio " + link } },
 							],
 						},
